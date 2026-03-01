@@ -2,39 +2,33 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
+  <!-- Meta tags for social media banners -->
   <meta name="description" content="DESCRIPTION META TAG">
   <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+
   <meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
   <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
+
   <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <title>Academic Project Page</title>
+  <title>FoleyDesigner</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,649 +38,554 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
 <body>
 
-
+  <!-- Top hero -->
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">FoleyDesigner: Immersive Stereo Foley Generation with Precise Spatio-Temporal Alignment for Film Clips</h1>
+
+            <h1 class="title is-1 publication-title">
+              FoleyDesigner: Immersive Stereo Foley Generation with Precise Spatio-Temporal Alignment for Film Clips
+            </h1>
+
+            <!-- Authors (order fixed) -->
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">Anonymous submission</span>
-                  </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <span class="author-name">
-                <a href="https://mengtianli.github.io/" target="_blank" rel="noopener noreferrer">Mengtian Li</a><sup>1</sup>,
+              <span class="author-block">
+                <span class="author-name">
+                  <a href="https://mengtianli.github.io/" target="_blank" rel="noopener noreferrer">Mengtian Li</a><sup>1</sup>,
+                </span>
+                <span class="author-name">Kunyan Dai<sup>1</sup>,</span>
+                <span class="author-name">Yi Ding<sup>1</sup>,</span>
+                <span class="author-name">Ruobing Ni<sup>1</sup>,</span>
+                <span class="author-name">Ying Zhang<sup>1</sup>,</span>
+                <span class="author-name">Wenwu Wang<sup>2</sup>,</span>
+                <span class="author-name">Zhifeng Xie<sup>1</sup></span>
               </span>
-              <span class="author-name">Kunyan Dai<sup>1</sup>,</span>
-              <span class="author-name">Yi Ding<sup>1</sup>,</span>
-              <span class="author-name">Ruobing Ni<sup>1</sup>,</span>
-              <span class="author-name">Ying Zhang<sup>1</sup>,</span>
-              <span class="author-name">Wenwu Wang<sup>2</sup>,</span>
-              <span class="author-name">Zhifeng Xie<sup>1</sup></span>
-            </span>
-          </div>
-          <div class="is-size-5 publication-authors" style="margin-bottom: 10px;">
-            <span class="author-block" style="margin-right: 10px;"><sup>1</sup>Shanghai Film Academy, Shanghai University</span>
-            <span class="author-block"><sup>2</sup>University of Surrey, UK</span>
-          </div>
+            </div>
 
+            <!-- Affiliations -->
+            <div class="is-size-5 publication-authors" style="margin-bottom: 10px;">
+              <span class="author-block" style="margin-right: 10px;"><sup>1</sup>Shanghai Film Academy, Shanghai University</span>
+              <span class="author-block"><sup>2</sup>University of Surrey, UK</span>
+            </div>
 
-                  <div class="column has-text-centered">
+            <!-- Links -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
 
+                <span class="link-block">
+                  <a href="Supplementary Material.pdf" target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Supplementary</span>
+                  </a>
+                </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="Supplementary Material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href=" " target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
+                <span class="link-block">
+                  <a href=" " target="_blank"
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
                 <span class="link-block">
                   <a href=" " target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                     class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="ai ai-arxiv"></i></span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
+          </div><!-- /column -->
+        </div><!-- /columns -->
+      </div><!-- /container -->
+    </div><!-- /hero-body -->
+  </section>
 
-      <div class="container has-text-centered">
-        <!-- Paper video. -->
-        <h2 class="title is-3">Video Presentation</h2>
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-
-            <div class="publication-video">
-              <!-- Youtube embed code here -->
-              <video controls playsinline preload="metadata" style="width: 100%; height: auto;">
-                <source src="static/videos/deno.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-<!-- Teaser video-->
-<!--<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
-        <!-- Your video here -->
-        <!--<source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        开头介绍
-      </h2>
-    </div>
-  </div>
-</section>-->>
-<!-- End teaser video -->
-
-
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="title is-3">FoleyDesigner Demo Gallery</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-
-        <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/molu.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/molu-ours.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-        <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/daomeng.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/daomeng-ours.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/roma.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/roma-ours.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-                <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/ben.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/ben_output.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-                <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/Bad_Teacher.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/Bad_Teacher_output.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-                <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/Changeling.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/Changeling_output.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-                <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/forest.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/forest_output.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="item" style="position: relative;">
-          <div class="columns is-vcentered">
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ori Video</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/shanori.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="column">
-              <h3 class="subtitle has-text-centered">Ours Output</h3>
-              <video controls style="width: 100%;">
-                <source src="static/videos/shan_output.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="title is-3">FilmStereo Sample Gallery</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-
-
-<div class="item" style="position: relative;">
-  <div class="columns is-vcentered is-centered">
-    <!-- 文本描述列 -->
-    <div class="column is-5">
-      <div class="box has-text-left p-4" style="font-size: 1rem;">
-        <p>a sound of Big Rubber Band Stretch, <strong>moves from a far point on the left to a far point on the front</strong>, in reverb like Natural reverberation with clean reflections.</p>
-      </div>
-    </div>
-
-    <!-- 音频播放列 -->
-    <div class="column is-5">
-      <div class="box has-text-centered p-4">
-        <h4 class="subtitle is-6">Audio</h4>
-        <audio controls style="width: 90%; max-width: 400px;">
-          <source src="static/audios/test_sample_0.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="item" style="position: relative;">
-  <div class="columns is-vcentered is-centered">
-    <!-- 文本描述列 -->
-    <div class="column is-5">
-      <div class="box has-text-left p-4" style="font-size: 1rem;">
-        <p>a sound of Comedy Slide Up and Hit, <strong>moves from a far point on the left_front to a far point on the right</strong>, in reverb like Expansive reverb filling a vast virtual space.</p>
-      </div>
-    </div>
-
-    <!-- 音频播放列 -->
-    <div class="column is-5">
-      <div class="box has-text-centered p-4">
-        <h4 class="subtitle is-6">Audio</h4>
-        <audio controls style="width: 90%; max-width: 400px;">
-          <source src="static/audios/test_sample_25.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="item" style="position: relative;">
-  <div class="columns is-vcentered is-centered">
-    <!-- 文本描述列 -->
-    <div class="column is-5">
-      <div class="box has-text-left p-4" style="font-size: 1rem;">
-        <p>a sound of Chopping Wood with Axe, <strong>coming from the right at a distant near </strong>, in reverb like Sharp, clear reflections in a tight space.</p>
-      </div>
-    </div>
-
-    <!-- 音频播放列 -->
-    <div class="column is-5">
-      <div class="box has-text-centered p-4">
-        <h4 class="subtitle is-6">Audio</h4>
-        <audio controls style="width: 90%; max-width: 400px;">
-          <source src="static/audios/test_sample_14.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="item" style="position: relative;">
-  <div class="columns is-vcentered is-centered">
-    <!-- 文本描述列 -->
-    <div class="column is-5">
-      <div class="box has-text-left p-4" style="font-size: 1rem;">
-        <p>a sound of Cartoon Drum Bass,<strong> coming from the right at a distant near</strong> , in reverb like Tight, confined space with subtle echoes.</p>
-      </div>
-    </div>
-
-    <!-- 音频播放列 -->
-    <div class="column is-5">
-      <div class="box has-text-centered p-4">
-        <h4 class="subtitle is-6">Audio</h4>
-        <audio controls style="width: 90%; max-width: 400px;">
-          <source src="static/audios/test_sample_3.wav" type="audio/wav">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-  </div>
-</div>
-
-        
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Paper abstract - 灰色背景 -->
-<section class="section hero is small">
-  <div class="container is-max-desktop">
+  <!-- Video Presentation -->
+  <div class="container has-text-centered">
+    <h2 class="title is-3">Video Presentation</h2>
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
+        <div class="publication-video">
+          <video controls playsinline preload="metadata" style="width: 100%; height: auto;">
+            <source src="static/videos/deno.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Teaser video (commented out correctly) -->
+  <!--
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">开头介绍</h2>
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- FoleyDesigner Demo Gallery -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-3">FoleyDesigner Demo Gallery</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/molu.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/molu-ours.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/daomeng.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/daomeng-ours.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/roma.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/roma-ours.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/ben.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/ben_output.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/Bad_Teacher.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/Bad_Teacher_output.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/Changeling.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/Changeling_output.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/forest.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/forest_output.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered">
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ori Video</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/shanori.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div class="column">
+                <h3 class="subtitle has-text-centered">Ours Output</h3>
+                <video controls style="width: 100%;">
+                  <source src="static/videos/shan_output.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /carousel -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FilmStereo Sample Gallery (id changed to be unique) -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h2 class="title is-3">FilmStereo Sample Gallery</h2>
+        <div id="results-carousel-audio" class="carousel results-carousel">
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered is-centered">
+              <div class="column is-5">
+                <div class="box has-text-left p-4" style="font-size: 1rem;">
+                  <p>a sound of Big Rubber Band Stretch, <strong>moves from a far point on the left to a far point on the front</strong>, in reverb like Natural reverberation with clean reflections.</p>
+                </div>
+              </div>
+              <div class="column is-5">
+                <div class="box has-text-centered p-4">
+                  <h4 class="subtitle is-6">Audio</h4>
+                  <audio controls style="width: 90%; max-width: 400px;">
+                    <source src="static/audios/test_sample_0.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered is-centered">
+              <div class="column is-5">
+                <div class="box has-text-left p-4" style="font-size: 1rem;">
+                  <p>a sound of Comedy Slide Up and Hit, <strong>moves from a far point on the left_front to a far point on the right</strong>, in reverb like Expansive reverb filling a vast virtual space.</p>
+                </div>
+              </div>
+              <div class="column is-5">
+                <div class="box has-text-centered p-4">
+                  <h4 class="subtitle is-6">Audio</h4>
+                  <audio controls style="width: 90%; max-width: 400px;">
+                    <source src="static/audios/test_sample_25.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered is-centered">
+              <div class="column is-5">
+                <div class="box has-text-left p-4" style="font-size: 1rem;">
+                  <p>a sound of Chopping Wood with Axe, <strong>coming from the right at a distant near </strong>, in reverb like Sharp, clear reflections in a tight space.</p>
+                </div>
+              </div>
+              <div class="column is-5">
+                <div class="box has-text-centered p-4">
+                  <h4 class="subtitle is-6">Audio</h4>
+                  <audio controls style="width: 90%; max-width: 400px;">
+                    <source src="static/audios/test_sample_14.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" style="position: relative;">
+            <div class="columns is-vcentered is-centered">
+              <div class="column is-5">
+                <div class="box has-text-left p-4" style="font-size: 1rem;">
+                  <p>a sound of Cartoon Drum Bass,<strong> coming from the right at a distant near</strong> , in reverb like Tight, confined space with subtle echoes.</p>
+                </div>
+              </div>
+              <div class="column is-5">
+                <div class="box has-text-centered p-4">
+                  <h4 class="subtitle is-6">Audio</h4>
+                  <audio controls style="width: 90%; max-width: 400px;">
+                    <source src="static/audios/test_sample_3.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /carousel -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract -->
+  <section class="section hero is small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
             <div class="col s10 offset-s1">
               <img class="responsive-img" src="static/images/teaser.png" />
-            </div>                    
-        </div> 
-        <div class="content has-text-justified">
-          <p>
-            Foley art plays a pivotal role in enhancing immersive auditory experiences in film, yet manual creation of spatio-temporally aligned audio remains labor-intensive. We propose <strong>FoleyDesigner</strong>, a novel framework inspired by professional Foley workflows, integrating film clip analysis, spatio-temporally controllable Foley generation, and professional audio mixing capabilities.
-FoleyDesigner employs a multi-agent architecture for precise spatio-temporal analysis. It achieves spatio-temporal alignment through latent diffusion models trained on spatio-temporal cues extracted from video frames, combined with large language model (LLM)-driven hybrid mechanisms that emulate post-production practices in film industry. 
-
-To address the lack of high-quality stereo audio datasets in film, we introduce <strong>FilmStereo</strong>, the first professional stereo audio dataset containing spatial metadata, precise timestamps, and semantic annotations for eight common Foley categories. 
-
-For applications, the framework supports interactive user control while maintaining seamless integration with professional pipelines, including 5.1-channel Dolby Atmos systems compliant with ITU-R BS.775 standards, thereby offering extensive creative flexibility.
-
-Extensive experiments demonstrate that our method achieves superior spatio-temporal alignment compared to existing baselines, with seamless compatibility with professional film production standards.
-          </p>
+            </div>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Foley art plays a pivotal role in enhancing immersive auditory experiences in film, yet manual creation of spatio-temporally aligned audio remains labor-intensive. We propose <strong>FoleyDesigner</strong>, a novel framework inspired by professional Foley workflows, integrating film clip analysis, spatio-temporally controllable Foley generation, and professional audio mixing capabilities.
+              FoleyDesigner employs a multi-agent architecture for precise spatio-temporal analysis. It achieves spatio-temporal alignment through latent diffusion models trained on spatio-temporal cues extracted from video frames, combined with large language model (LLM)-driven hybrid mechanisms that emulate post-production practices in film industry.
+              To address the lack of high-quality stereo audio datasets in film, we introduce <strong>FilmStereo</strong>, the first professional stereo audio dataset containing spatial metadata, precise timestamps, and semantic annotations for eight common Foley categories.
+              For applications, the framework supports interactive user control while maintaining seamless integration with professional pipelines, including 5.1-channel Dolby Atmos systems compliant with ITU-R BS.775 standards, thereby offering extensive creative flexibility.
+              Extensive experiments demonstrate that our method achieves superior spatio-temporal alignment compared to existing baselines, with seamless compatibility with professional film production standards.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- End paper abstract -->
-
-<!-- Paper abstract -->
-
-<section class="section hero">
-  <div class="container is-fullhd">
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="title is-3" style="white-space: nowrap;">Method Overview</h2>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section hero" style="padding-bottom: 1rem;">
-  <div class="container is-fullhd">
-    <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <!-- 大图显示 -->
-        <div style="width: 100%; margin: 2em auto 0;">
-          <img src="static/images/method.png" style="width: 100%; max-width: 1200px; height: auto;" alt="Method Overview"/>
+  <!-- Method Overview -->
+  <section class="section hero">
+    <div class="container is-fullhd">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3" style="white-space: nowrap;">Method Overview</h2>
         </div>
       </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
+  <section class="section hero" style="padding-bottom: 1rem;">
+    <div class="container is-fullhd">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <div style="width: 100%; margin: 2em auto 0;">
+            <img src="static/images/method.png" style="width: 100%; max-width: 1200px; height: auto;" alt="Method Overview"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="section hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
           <div class="content has-text-justified" style="font-size: 1.2rem; line-height: 1.6;">
             <p>
-We propose <strong>FoleyDesigner</strong>, a novel system for controllable film foley generation that mirrors professional post-production workflows. Given a silent film clip and its script, our pipeline operates through three sequential stages: (1) <strong>Fine-Grained Film Decomposition</strong> employs Tree-of-Thought reasoning to analyze visual content and narrative context, producing hierarchical Foley scripts that decompose densely overlapping sound events into temporally-layered foreground and background elements; (2) <strong>Spatio-Temporal Foley Generation</strong> synthesizes each event as stereo audio using a DiT-based latent diffusion model conditioned on textual descriptions and spatio-temporal cues extracted from visual tracking—depth and azimuth coordinates are derived from monocular depth estimation and bounding box localization, then injected into the diffusion backbone via cross-attention mechanisms to ensure frame-accurate temporal alignment and precise spatial positioning; (3) <strong>Foley Refinement and Professional Mixing</strong> applies multi-agent audio processing to diagnose and correct acoustic inconsistencies—specialist agents perform reverberation matching, equalization for spectral clarity, and dynamics balancing to achieve professional acoustic quality, followed by channel-wise upmixing to 5.1 Dolby Surround format following ITU-R BS.775 specifications. This architecture addresses critical limitations of prior work by enabling explicit decomposition of complex soundscapes, grounding audio generation in quantitative visual-spatial cues, and ensuring cinematic-grade acoustic refinement.
-            </p> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-
-
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-
-        <!-- 标题 -->
-        <h2 class="title is-3">FilmStereo Dataset</h2>
-
-        <!-- 图片（如果你有数据集示意图，可以放这里） -->
-        <div style="width: 100%; margin: 1em auto;">
-          <img src="static/images/data_pipline.png" style="width: 100%;max-width: 1200px; height: auto;" alt="FilmStereo Dataset Overview">
-        </div>
-
-        <!-- 描述文字 -->
-        <div class="content has-text-justified" style="font-size: 1.2rem; line-height: 1.6;">
-          <p>
-            We present <strong>FilmStereo</strong>, a stereo audio dataset designed for film foley generation that pairs spatially and temporally annotated audio with detailed captions. Covering eight common foley categories, the dataset is created by collecting and preprocessing audio clips to ensure clarity, followed by spatial audio simulation using gpuRIR and reverberation effects. Semantic alignment is verified with CLAP, while spatially aware captions and timestamped sound events are generated through chain-of-thought prompting and amplitude analysis, with manual quality control to ensure dataset reliability.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- End paper abstract -->
-
-
-
-
-
-
-<!-- End image carousel -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experiment</h2>
-
-        <!-- Spatial Case Study -->
-        <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
-          <div class="col s10 offset-s1">
-            <img class="responsive-img" src="static/images/case_spatial_1.png" />
-          </div>                    
-        </div> 
-        <div class="content has-text-justified">
-          <p>
-            <strong> Spatial Analysis.</strong>Our method demonstrates proper stereo separation with left channel (L) weakening and right channel (R)
-strengthening, while SpatialSonic (stereo output) shows limited spatial variation despite having two-channel capability. </p>
-        </div>
-
-        <!-- Temporal Case Study -->
-        <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
-          <div class="col s10 offset-s1">
-            <img class="responsive-img" src="static/images/case_tamproal_1.jpeg" />
-          </div>                    
-        </div> 
-        <div class="content has-text-justified">
-          <p>
-            <strong>Temporal Analysis.</strong> Each video frame corresponds to a temporal segment in the spectrogram below. Yellow checkmarks indicate
-successful audio-visual synchronization. Our method achieves consistent temporal alignment across key events, while baseline methods
-show varying degrees of synchronization failure regardless of their output channel configuration.
-     </p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- Youtube video -->
-
-<!-- End youtube video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Experimental Setup</h2>
-        
-        <div class="content has-text-justified">
-          <p>
-            Our user study was conducted through both offline and online evaluations to comprehensively assess the perceived quality of generated foley audio.
-          </p>
-          
-          <h3 class="title is-4">Offline Evaluation</h3>
-          <p>
-            We recruited 12 participants with normal hearing to conduct perceptual evaluation in a professional audio mixing studio with controlled acoustic conditions. The evaluation environment featured a standard 5.1 surround sound system configured according to ITU-R BS.775-3 specifications, as illustrated below.
-          </p>
-        </div>
-
-        <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
-          <div class="col s10 offset-s1">
-            <img class="responsive-img" src="static/images/5.1surrounding.png" alt="5.1 Surround Sound Setup" />
-            <p class="has-text-centered" style="margin-top: 0.5em; font-size: 0.95em;">
-              <strong>User study setup.</strong> (a) Standard 5.1 surround sound speaker configuration showing Front Left (FL), Center (C), Front Right (FR), Low Frequency Effects (LFE), Left Surround (LS), and Right Surround (RS) positions. (b) Professional mixing studio environment.
+              We propose <strong>FoleyDesigner</strong>, a novel system for controllable film foley generation that mirrors professional post-production workflows. Given a silent film clip and its script, our pipeline operates through three sequential stages: (1) <strong>Fine-Grained Film Decomposition</strong> employs Tree-of-Thought reasoning to analyze visual content and narrative context, producing hierarchical Foley scripts that decompose densely overlapping sound events into temporally-layered foreground and background elements; (2) <strong>Spatio-Temporal Foley Generation</strong> synthesizes each event as stereo audio using a DiT-based latent diffusion model conditioned on textual descriptions and spatio-temporal cues extracted from visual tracking—depth and azimuth coordinates are derived from monocular depth estimation and bounding box localization, then injected into the diffusion backbone via cross-attention mechanisms to ensure frame-accurate temporal alignment and precise spatial positioning; (3) <strong>Foley Refinement and Professional Mixing</strong> applies multi-agent audio processing to diagnose and correct acoustic inconsistencies—specialist agents perform reverberation matching, equalization for spectral clarity, and dynamics balancing to achieve professional acoustic quality, followed by channel-wise upmixing to 5.1 Dolby Surround format following ITU-R BS.775 specifications. This architecture addresses critical limitations of prior work by enabling explicit decomposition of complex soundscapes, grounding audio generation in quantitative visual-spatial cues, and ensuring cinematic-grade acoustic refinement.
             </p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="content has-text-justified">
-          <p>
-            The listening room was acoustically optimized with controlled reverberation time and minimal background noise. Participants were positioned at the sweet spot, maintaining equal distance from all speakers. The audio playback system utilized monitors with flat frequency response to ensure accurate sound reproduction.
-          </p>
-        </div>
+  <!-- FilmStereo Dataset -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">FilmStereo Dataset</h2>
 
-        <div class="row center" style="width: 90%; margin: 1em auto 1em auto">
-          <div class="col s10 offset-s1">
-            <img class="responsive-img" src="static/images/participants.png" alt="Participants in Studio" />
-            <p class="has-text-centered" style="margin-top: 0.5em; font-size: 0.95em;">
-              <strong>Participants</strong> conducting the perceptual evaluation in the professional mixing studio environment.
+          <div style="width: 100%; margin: 1em auto;">
+            <img src="static/images/data_pipline.png" style="width: 100%;max-width: 1200px; height: auto;" alt="FilmStereo Dataset Overview">
+          </div>
+
+          <div class="content has-text-justified" style="font-size: 1.2rem; line-height: 1.6;">
+            <p>
+              We present <strong>FilmStereo</strong>, a stereo audio dataset designed for film foley generation that pairs spatially and temporally annotated audio with detailed captions. Covering eight common foley categories, the dataset is created by collecting and preprocessing audio clips to ensure clarity, followed by spatial audio simulation using gpuRIR and reverberation effects. Semantic alignment is verified with CLAP, while spatially aware captions and timestamped sound events are generated through chain-of-thought prompting and amplitude analysis, with manual quality control to ensure dataset reliability.
             </p>
           </div>
         </div>
-
-        <div class="content has-text-justified">
-          <h3 class="title is-4">Online Evaluation</h3>
-          <p>
-            We conducted an online questionnaire-based evaluation with 53 participants, categorized into two groups: 23 film audio professionals (43.4%) and 30 non-professionals (56.6%). Participants evaluated stereo audio samples through a web-based interface. For baseline comparisons, we evaluated our FoleyDesigner against three state-of-the-art methods: See2Sound, Stable-Audio-Open, and SpatialSonic.
-          </p>
-          
-          <p>
-            Participants rated each method across five dimensions: (1) <em>timbre consistency</em> with film content; (2) <em>spatial alignment</em> relative to visual sources; (3) <em>temporal alignment</em> with visual events; (4) <em>emotional alignment</em> with scene atmosphere; (5) <em>immersion</em>.
-          </p>
-        </div>
-
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- End paper abstract -->
+  <!-- Experiment -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Experiment</h2>
 
+          <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
+            <div class="col s10 offset-s1">
+              <img class="responsive-img" src="static/images/case_spatial_1.png" />
+            </div>
+          </div>
+          <div class="content has-text-justified">
+            <p><strong>Spatial Analysis.</strong> Our method demonstrates proper stereo separation with left channel (L) weakening and right channel (R) strengthening, while SpatialSonic (stereo output) shows limited spatial variation despite having two-channel capability.</p>
+          </div>
 
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+          <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
+            <div class="col s10 offset-s1">
+              <img class="responsive-img" src="static/images/case_tamproal_1.jpeg" />
+            </div>
+          </div>
+          <div class="content has-text-justified">
+            <p><strong>Temporal Analysis.</strong> Each video frame corresponds to a temporal segment in the spectrogram below. Yellow checkmarks indicate successful audio-visual synchronization. Our method achieves consistent temporal alignment across key events, while baseline methods show varying degrees of synchronization failure regardless of their output channel configuration.</p>
+          </div>
 
-        <!-- 标题 -->
-        <h2 class="title is-3">Conclusion</h2>
-
-        <!-- 描述文字 -->
-        <div class="content has-text-justified" style="font-size: 1.2rem; line-height: 1.6;">
-          <p>
-We introduce <strong>FoleyDesigner</strong>, a novel framework for generating precise spatio-temporal alignment stereo audio for silent film clips. Drawing inspiration from the established workflow of professional foley artists, FoleyDesigner integrates multi-stage modules including film clip perception, spatio-temporal cue extraction, stereo audio generation, and multi-agent mixing. To support stereo foley generation, we introduce the <strong>FilmStereo</strong> dataset with detailed spatial and temporal annotations. Experimental results on multiple benchmarks demonstrate that FoleyDesigner achieves superior performance compared to existing methods. Beyond academic benchmarks, FoleyDesigner can be applied to real-world scenarios, including post-production for films and immersive sound design for virtual reality applications. Its modular design adapts to professional audio workflows, enabling efficient and controllable foley generation.          </p>
         </div>
-
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Experimental Setup -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Experimental Setup</h2>
 
+          <div class="content has-text-justified">
+            <p>Our user study was conducted through both offline and online evaluations to comprehensively assess the perceived quality of generated foley audio.</p>
+
+            <h3 class="title is-4">Offline Evaluation</h3>
+            <p>
+              We recruited 12 participants with normal hearing to conduct perceptual evaluation in a professional audio mixing studio with controlled acoustic conditions. The evaluation environment featured a standard 5.1 surround sound system configured according to ITU-R BS.775-3 specifications, as illustrated below.
+            </p>
+          </div>
+
+          <div class="row center" style="width: 100%; margin: 1em auto 1em auto">
+            <div class="col s10 offset-s1">
+              <img class="responsive-img" src="static/images/5.1surrounding.png" alt="5.1 Surround Sound Setup" />
+              <p class="has-text-centered" style="margin-top: 0.5em; font-size: 0.95em;">
+                <strong>User study setup.</strong> (a) Standard 5.1 surround sound speaker configuration showing Front Left (FL), Center (C), Front Right (FR), Low Frequency Effects (LFE), Left Surround (LS), and Right Surround (RS) positions. (b) Professional mixing studio environment.
+              </p>
+            </div>
+          </div>
+
+          <div class="content has-text-justified">
+            <p>
+              The listening room was acoustically optimized with controlled reverberation time and minimal background noise. Participants were positioned at the sweet spot, maintaining equal distance from all speakers. The audio playback system utilized monitors with flat frequency response to ensure accurate sound reproduction.
+            </p>
+          </div>
+
+          <div class="row center" style="width: 90%; margin: 1em auto 1em auto">
+            <div class="col s10 offset-s1">
+              <img class="responsive-img" src="static/images/participants.png" alt="Participants in Studio" />
+              <p class="has-text-centered" style="margin-top: 0.5em; font-size: 0.95em;">
+                <strong>Participants</strong> conducting the perceptual evaluation in the professional mixing studio environment.
+              </p>
+            </div>
+          </div>
+
+          <div class="content has-text-justified">
+            <h3 class="title is-4">Online Evaluation</h3>
+            <p>
+              We conducted an online questionnaire-based evaluation with 53 participants, categorized into two groups: 23 film audio professionals (43.4%) and 30 non-professionals (56.6%). Participants evaluated stereo audio samples through a web-based interface. For baseline comparisons, we evaluated our FoleyDesigner against three state-of-the-art methods: See2Sound, Stable-Audio-Open, and SpatialSonic.
+            </p>
+
+            <p>
+              Participants rated each method across five dimensions: (1) <em>timbre consistency</em> with film content; (2) <em>spatial alignment</em> relative to visual sources; (3) <em>temporal alignment</em> with visual events; (4) <em>emotional alignment</em> with scene atmosphere; (5) <em>immersion</em>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusion -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Conclusion</h2>
+          <div class="content has-text-justified" style="font-size: 1.2rem; line-height: 1.6;">
+            <p>
+              We introduce <strong>FoleyDesigner</strong>, a novel framework for generating precise spatio-temporal alignment stereo audio for silent film clips. Drawing inspiration from the established workflow of professional foley artists, FoleyDesigner integrates multi-stage modules including film clip perception, spatio-temporal cue extraction, stereo audio generation, and multi-agent mixing. To support stereo foley generation, we introduce the <strong>FilmStereo</strong> dataset with detailed spatial and temporal annotations. Experimental results on multiple benchmarks demonstrate that FoleyDesigner achieves superior performance compared to existing methods. Beyond academic benchmarks, FoleyDesigner can be applied to real-world scenarios, including post-production for films and immersive sound design for virtual reality applications. Its modular design adapts to professional audio workflows, enabling efficient and controllable foley generation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
